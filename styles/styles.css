@@ -116,6 +116,7 @@ grid-row: 3/5;
 filter: saturate(80%);
 -webkit-filter: opacity(80%); /* Safari 6.0 - 9.0 */
 filter: opacity(80%);
+opacity:80%;
 -webkit-filter: drop-shadow(4px 4px 8px black); /* Safari 6.0 - 9.0 */
 filter: drop-shadow(4px 4px 8px black);
 }
@@ -123,6 +124,8 @@ filter: drop-shadow(4px 4px 8px black);
 filter: saturate(100%);
 -webkit-filter: opacity(100%); /* Safari 6.0 - 9.0 */
 filter: opacity(100%);
+filter: drop-shadow(4px 4px 8px black);
+opacity:100%;
 }
 #info{
 grid-column: 3/4;
@@ -138,12 +141,15 @@ filter: saturate(80%);
 filter: opacity(80%);
 -webkit-filter: drop-shadow(4px 4px 8px black); /* Safari 6.0 - 9.0 */
 filter: drop-shadow(4px 4px 8px black);
+opacity:80%;
 }
 .RImg:hover{
 -webkit-filter: saturate(100%); /* Safari 6.0 - 9.0 */
 filter: saturate(100%);
 -webkit-filter: opacity(100%); /* Safari 6.0 - 9.0 */
 filter: opacity(100%);
+filter: drop-shadow(4px 4px 8px black);
+opacity:100%;
 }
 #process{
 grid-column: 2/3;
